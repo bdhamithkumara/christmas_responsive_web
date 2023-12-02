@@ -9,7 +9,7 @@ import Footer from "./layout/Footer"
 
 export default function Home() {
   return (
-    <main className="max-w-[1920px] mx-auto relative overflow-hidden font-primary">
+    <main className="max-w-[1920px] mx-auto relative overflow-hidden font-primary bg-body-color dark:bg-body-color-dark">
       <Navbar/>
       <HeroSection/>
       <GivingSection/>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <div>
+    <div id='home'>
       <div className='flex justify-center lg:flex-row flex-col items-center text-center lg:text-start sm:mt-8 md:mt-20'>
         <div>
           <Image src={HeroImage} alt='heroImage' className='xs:w-[500px] xs:h-[442px] w-[320px] h-[282px]'/>

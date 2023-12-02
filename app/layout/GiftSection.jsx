@@ -55,7 +55,7 @@ const GiftSection = () => {
   }
 
   return (
-    <div className='flex justify-center mt-24 flex-col items-center mb-5'>
+    <div id='gifts' className='flex justify-center mt-24 flex-col items-center mb-5'>
       <div>
         <p className='text-[24px] w-[200px] font-semibold text-center text-title-color dark:text-title-color-dark'>Share A Gift</p>
       </div>

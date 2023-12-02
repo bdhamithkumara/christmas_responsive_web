@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const CelebrateSection = () => {
   return (
-    <div className='flex justify-center lg:flex-row flex-col items-center text-center lg:text-start mt-16 xs:mt-20 lg:mt-10'>
+    <div id='celebrate' className='flex justify-center lg:flex-row flex-col items-center text-center lg:text-start mt-16 xs:mt-20 lg:mt-10'>
       <div className='my-auto sm:w-[400px]'>
         <div className='justify-center lg:justify-start flex'>
           <p className='text-[20px] xs:text-[24px] font-semibold xs:w-[220px] w-[200px] leading-tight text-title-color dark:text-title-color-dark'>Celebrate With A Lot Of Love</p>
